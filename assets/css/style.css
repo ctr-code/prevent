@@ -56,6 +56,11 @@ section {
     background: #f2fff2;
 }
 
+/* A button that is full-width until the screen reaches large (992px) */
+.vary-button {
+    width: 100%;
+}
+
 /* Hero section */
 #hero {
     height: 600px;
@@ -74,10 +79,6 @@ section {
     display: flex;
     align-items: flex-end;
     justify-content: right;
-}
-
-.submit-button-container>button {
-    width: 100%;
 }
 
 /* Footer */
@@ -102,8 +103,8 @@ footer {
 
 /* Large devices, small laptops and up */
 @media screen and (min-width: 992px) {
-    /* Don't use a full width submit button on larger screens */
-    .submit-button-container>button {
+    /* Don't use full width buttons on larger screens */
+    .vary-button {
         width: auto;
     }
 }
