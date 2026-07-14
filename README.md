@@ -71,7 +71,7 @@ As the design evolved I realised I needed a section on contacting the authoritie
 
 Mobile/Tablet | Desktop | Confirmation Popup
 -- | -- | --
-![](docs/wireframe_small.png) | ![](docs/wireframe_big.png) | ![](docs/wireframe_confirm.png)
+![Wireframe for a mobile/tablet](docs/wireframe_small.png) | ![Wireframe for a laptop/desktop](docs/wireframe_big.png) | ![Wireframe for a confirmation window](docs/wireframe_confirm.png)
 
 ### Typography
 
