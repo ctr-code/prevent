@@ -42,8 +42,7 @@ h3 {
     color: var(--primary-colour);
 }
 
-h1,
-h2 {
+h1 {
     text-transform: uppercase;
 }
 
@@ -52,7 +51,9 @@ h2 {
 }
 
 section {
-    margin: 3rem 0;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: #f2fff2;
 }
 
 /* Hero section */
@@ -70,4 +71,18 @@ section {
 
 footer {
     padding: 1.25rem 0;
+}
+
+/* Medium devices, tablets and up */
+@media screen and (min-width: 768px) {
+    /* move the image away from the right margin */
+    #hero {
+        background-position:
+            right 10rem top 0,
+            left center;
+    }
+
+    .hero-text-container {
+        margin-top: 200px;
+    }
 }
