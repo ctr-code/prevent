@@ -83,7 +83,7 @@ The site was deployed to Github Pages using the following method:
 - Using the 'select branch' dropdown menu, choose 'main'.
 - Click 'save'.
 
-## Credits and Thanks
+## Credit and Thanks
 
 * [Code Institute](https://codeinstitute.net/) and its tutors for teaching, support and the navbar collapser
 * [West Midlands Combined Authority](https://www.wmca.org.uk/) for funding
@@ -99,4 +99,4 @@ The site was deployed to Github Pages using the following method:
 * [Wikipedia](https://en.wikipedia.org/wiki/File:Vienna_Convention_road_sign_B2a.svg) and the [United Nations](https://www.un.org/) for the stop sign image
 * [Action Counters Terrorism](https://actearly.uk/) for Prevent guidance
 * [His Majesty's Government](https://www.gov.uk/government/publications/prevent-duty-guidance/prevent-duty-guidance-for-england-and-wales-accessible#prevents-objectives) for the Prevent objectives
-* [Balsamiq](https://balsamiq.com/) for trying to upsell me after I'd completed the wireframes
+* [Balsamiq](https://balsamiq.com/) for trying to upsell me export after I'd completed the wireframes
