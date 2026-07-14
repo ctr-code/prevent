@@ -27,8 +27,8 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 57.55px;
     /* Leave room for the fixed navbar */
+    padding-top: 58px;
 }
 
 #navbar {
