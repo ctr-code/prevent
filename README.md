@@ -75,7 +75,7 @@ Mobile/Tablet | Desktop | Confirmation Popup
 
 ### Typography
 
-For headers I have used the Rubik font, in bold for the main header.  It is an authoritative sans-serif font.
+For headers I have used the Rubik font, with the main header in bold.  It is an authoritative sans-serif font.
 
 ### Colour Scheme
 
@@ -112,7 +112,7 @@ paste here you user story | what is visible to the user and what action they sho
 
 ## Bugs
 
-* The hero image displayed repeatedly after I added the background gradient.  I read the [MDN page on using multiple backgrounds](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds) to understand that I needed to double-up the background image properties.
+* The hero image displayed repeatedly across the screen after I added the background gradient.  I read the [MDN page on using multiple backgrounds](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds) to understand that I needed to double-up the background image properties.
 * Copilot wrote the code to display the confirmation modal but it attached it to the wrong event so it didn't work.  I read the [MDN page on form submission using javascript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript) and fixed the problem.
 
 ## Deployment
