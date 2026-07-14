@@ -1,3 +1,73 @@
+@import url(https://fonts.bunny.net/css?family=rubik:300,400,700);
+
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Rubik", sans-serif;
+    --primary-colour: #3a2620;
+    /* dark brown */
+    --secondary-colour: #aa9581;
+    /* light brown */
+    --highlight-colour: #416a8e;
+    /* blue */
+    --highlight-colour-light: #7a9fc2;
+    /* light blue */
+    /* CSS HEX */
+    --shadow-grey: #3b2c35ff;
+    --midnight-violet: #2a1f2dff;
+    --spring-green: #31e981ff;
+    --pacific-blue: #75b8c8ff;
+    --dusty-rose: #cd8b76ff;
+    /* CSS HEX */
+    --rosy-copper: #d5573bff;
+    --smoky-rose: #885053ff;
+    --tea-green: #c6ecaeff;
+    --pacific-blue: #75b8c8ff;
+    --baltic-blue: #33658aff;
+}
+
 body {
-    color: green;
+    font-family: var(--primary-font);
+    padding-top: 57.55px;
+    /* Leave room for the fixed navbar */
+}
+
+#navbar {
+    background-color: #eeeeff;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-colour);
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+section {
+    margin: 3rem 0;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    /*width: 100%;*/
+    background-image: url("../images/hands-transparent-600.png"), linear-gradient(white, #00a);
+    background-repeat: no-repeat, no-repeat;
+    background-position:
+        right center,
+        left top;
+    background-size: contain, contain;
+    position: relative;
+}
+
+footer {
+    padding: 1.25rem 0;
 }
