@@ -69,20 +69,41 @@ section {
     position: relative;
 }
 
+/* Contact section */
+.submit-button-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.submit-button-container>button {
+    width: 100%;
+}
+
+/* Footer */
 footer {
     padding: 1.25rem 0;
 }
 
 /* Medium devices, tablets and up */
 @media screen and (min-width: 768px) {
-    /* move the image away from the right margin */
+    /* move the hero image away from the right margin */
     #hero {
         background-position:
             right 10rem top 0,
             left center;
     }
 
+    /* vertically centre the hero text on larger screens */
     .hero-text-container {
         margin-top: 200px;
+    }
+}
+
+/* Large devices, small laptops and up */
+@media screen and (min-width: 992px) {
+    /* Don't use a full width submit button on larger screens */
+    .submit-button-container>button {
+        width: auto;
     }
 }

@@ -71,7 +71,7 @@
         <section id="overview" class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-6">Overview of Prevent</h2>
+                    <h2>Overview of Prevent</h2>
                     <p>Prevent is a programme developed by the British government. The objectives of Prevent are to:</p>
                     <ul>
                         <li>Tackle the ideological causes of terrorism</li>
@@ -85,25 +85,70 @@
         <section id="radicalisation" class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-6">Radicalisation</h2>
+                    <h2>Radicalisation</h2>
                 </div>
             </div>
         </section>
         <section id="report" class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-6">Report a Concern</h2>
+                    <h2>Report a Concern</h2>
                 </div>
             </div>
         </section>
         <section id="contact" class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-6">Contact Us</h2>
+                    <h2>Contact Us</h2>
+                    <form id="contact-form">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="tel" required>
+                            </div>
+                            <div class="col-12 col-lg-8 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3 submit-button-container">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+
+                    </form>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- "Confirmation" modal for form submission -->
+    <div id="confirmation-modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Thank you</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This is a student project.</p>
+                    <p><strong>Your message will NOT be read.</strong></p>
+                    <p>If you have a Prevent concern please contact <a href="https://actearly.uk" target="_blank"
+                            rel="noreferrer">Action Counters Terrorism</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="site-footer">
@@ -145,6 +190,14 @@
                     }
                 });
             });
+    </script>
+    <!-- JavasScript code to display the confirmation modal -->
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent the default form submission
+            var modal = new bootstrap.Modal(document.getElementById("confirmation-modal"));
+            modal.show();
+        });
     </script>
 </body>
 
