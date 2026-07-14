@@ -8,7 +8,7 @@ A student project to create a single page website introducing the British Govern
 
 ### External User’s Goal
 
-The user wants a basic introduction to the Prevent strategy, including how to recognize signs of radicalization and how to report concerns presented in a simple, easy-to-navigate format.
+The user wants a basic introduction to the Prevent strategy, including how to recognize signs of radicalisation and how to report concerns presented in a simple, easy-to-navigate format.
 
 ### Site Owner’s Goal
 
@@ -18,24 +18,68 @@ The site owner’s goal is to create an informative webpage that introduces the 
 
 * Introduction Section: A Bootstrap Jumbotron or header that briefly explains the Prevent strategy and its importance, with a background colour or image that conveys safety and community.
 * Information Grid: Use Bootstrap’s grid system to create a well-organised layout for sections like “What is Prevent?” “Recognizing Risks” and “Reporting Concerns.”
-* Lists of Signs: Present the signs of radicalization using Bootstrap’s list group or bullet points to make the information easy to read.
+* Lists of Signs: Present the signs of radicalisation using Bootstrap’s list group or bullet points to make the information easy to read.
 * Action Buttons: Use Bootstrap’s button classes to create clear call-to-action buttons for reporting concerns or accessing additional resources.
 
 ## Design & Planning
 
-### User Stories
-Write your user stories in this section
+### User Stories and Acceptance Criteria
+
+1. **As a visitor, I want a clear introduction to the Prevent strategy so I can quickly understand its purpose.**
+   - The page includes a short introductory section near the top.
+   - The introduction explains Prevent in plain language.
+   - It states the overall aim of Prevent clearly and positively.
+
+2. **As a visitor, I want information about radicalisation so I can understand what to look out for.**
+   - The page includes a dedicated section about radicalisation.
+   - The section explains what radicalisation means and why it matters.
+   - The content is framed in a way that is easy to understand and not alarmist.
+
+3. **As a visitor, I want warning signs presented in a simple, readable format so I can scan them easily.**
+   - Warning signs are listed in bullet points, list groups, or similar.
+   - The language is concise and straightforward.
+   - Related signs are grouped logically (e.g. susceptibility, behavior, process).
+
+4. **As a visitor, I want clear guidance on how to report concerns so I know what action to take if needed.**
+   - The page includes a reporting section with step-by-step guidance.
+   - It tells visitors what to do first, who to contact, and what information is helpful.
+   - The advice is calm, practical, and encourages acting early.
+
+5. **As a visitor, I want the page to feel calm, clear, and welcoming so I can engage with the content comfortably.**
+   - The wording is reassuring and non-judgmental.
+   - The layout avoids clutter and uses whitespace for readability.
+   - The visual tone supports a calm, welcoming experience.
+
+6. **As a visitor, I want to contact the site so I can leave feedback and ask questions.**
+   - A contact option or section is clearly visible.
+   - It explains how visitors can leave feedback or ask questions.
+   - Contact information is easy to find and access.
+
+7. **As a site owner, I want the content to be organised into clear sections so the page is easy to navigate and understand.**
+   - The page is broken into distinct sections with clear headings.
+   - Each section covers one main idea or action.
+   - The structure is logical and easy to scan.
+
+8. **As a site owner, I want the design to use simple Bootstrap styling so the webpage is informative, accessible, and visually clear.**
+   - Bootstrap classes are used for layout and typography.
+   - The page remains responsive on mobile and desktop.
+   - The styling supports accessibility and a clean visual hierarchy.
 
 ### Wireframes
+
+As the design evolved I realised I needed a section on contacting the authorities, which is missing from the wireframes.
 
 Mobile/Tablet | Desktop | Confirmation Popup
 -- | -- | --
 ![](docs/wireframe_small.png) | ![](docs/wireframe_big.png) | ![](docs/wireframe_confirm.png)
 
 ### Typography
-Explain font you've used for your project
+
+For headers I have used the Rubik font, in bold for the main header.  It is an authoritative sans-serif font.
 
 ### Colour Scheme
+
+
 Screenshoot of the colour scheme for your project
 
 ## Features:
