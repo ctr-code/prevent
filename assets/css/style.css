@@ -68,7 +68,7 @@ a {
 .submit-button-container {
     display: flex;
     align-items: flex-end;
-    justify-content: right;
+    justify-content: center;
 }
 
 /* Footer */
