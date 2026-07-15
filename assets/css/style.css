@@ -79,6 +79,10 @@ a {
 }
 
 /* Contact section */
+form {
+    margin-top: 1.5rem;
+}
+
 .submit-button-container {
     display: flex;
     align-items: flex-end;
