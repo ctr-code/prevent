@@ -161,7 +161,9 @@ paste here you user story | what is visible to the user and what action they sho
 * Copilot wrote the code to display the confirmation modal but it attached it to the wrong event so it didn't work.  I read the [MDN page on form submission using javascript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript) and fixed the problem.
 * Following the advice in the project statement I used a Jumbotron for the header without realising it was a Bootstrap 4 feature and didn't do anything.  Unfortunately, the boilerplate that came with it introduced an unwanted margin but when I noticed that I fixed it and removed the Jumbotron cruft.
 * After clicking on an internal link the heading was hidden under the navbar.  I added `scroll-margin-top` using the browser dev tools and it fixed the problem, but when I added it to the project it didn't.  After reading this [Stack Overflow question and answer](https://stackoverflow.com/questions/72581132/how-does-the-css-property-scroll-margin-top-and-scroll-padding-top-really-wo) I realised that I had initially tested it with javascript disabled, but it didn't work in production because the navbar collapser handles the scrolling.  Using the Firefox javascript debugger I found a bug in the code to obtain the height of the navbar and fixed it, which fixed the scrolling.  Later on I realised the scrolling was *still* broken on mobile, so I added a CSS variable to provide a consistent navbar height everywhere, and modified the code to use it.
-* The default bootstrap link colour had contrast problems against the light section background so I used the darker blue matching the shield border.
+* The default bootstrap link colour had contrast problems against the light section background so I used the darker blue from the palette.
+* Lighthouse complained that the 40x40 logo was too low-res for high DPI screens so I re-rendered it at 80x80.
+* The W3C validator completed about a skipped heading level so I changed the `<h4>` to `<h3>`.
 
 ## Deployment
 
@@ -192,6 +194,8 @@ paste here you user story | what is visible to the user and what action they sho
 * [The Inter Project Authors](https://github.com/rsms/inter) for the Inter font
 * [Microsoft](https://www.microsoft.com/) for [Visual Studio Code](https://code.visualstudio.com/)
 * [Copilot](https://copilot.microsoft.com/) for various tasks as described above
+* [Inkscape](https://inkscape.org/) for rendering the logo and favicons
+* [GIMP](https://www.gimp.org/) for cropping many screenshots
 * [Google](https://github.com/googlefonts/noto-emoji) for the Noto Emoji font, which provided the basis for the shield logo
 * [Action Counters Terrorism](https://actearly.uk/) for Prevent guidance
 * [His Majesty's Government](https://www.gov.uk/government/publications/prevent-duty-guidance/prevent-duty-guidance-for-england-and-wales-accessible#prevents-objectives) for the Prevent objectives
