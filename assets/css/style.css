@@ -7,12 +7,14 @@
     --shield-dark: #1717b2;
     --shield-light: #c0c0ea;
     --background-blue: #eeeeff;
+
+    --navbar-height: 57.72px;
 }
 
 body {
     font-family: var(--primary-font);
     /* Leave room for the fixed navbar */
-    padding-top: 57.72px;
+    padding-top: var(--navbar-height);
 }
 
 #navbar {

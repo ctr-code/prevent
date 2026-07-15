@@ -190,7 +190,7 @@
                     let section = document.querySelector(e.target.getAttribute("href"));
                     if (section) {
                         e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector("#navbar").offsetHeight;
+                        let navbarHeight = parseFloat(window.getComputedStyle(document.body).getPropertyValue('--navbar-height'));
                         window.scroll({
                             top: section.offsetTop - navbarHeight, // Adjust for navbar height
                             behavior: "smooth",
