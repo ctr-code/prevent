@@ -137,7 +137,11 @@ My takeaway is that Copilot is good at coming up with a bunch of ideas, but if y
 Important part of your README!!!
 
 ### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
+
+Desktop | Mobile
+-- | --
+![Lighthouse for desktop](docs/lighthouse-desktop.png) | ![Lighthouse for mobile](docs/lighthouse-mobile.png)
+
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
