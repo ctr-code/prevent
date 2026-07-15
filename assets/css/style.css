@@ -33,7 +33,11 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 150%;
 }
 
 section {
@@ -84,6 +88,7 @@ a {
 /* Footer */
 footer {
     padding: 1.25rem 0;
+    background: var(--background-blue);
 }
 
 /* Everything but the tiniest screens */
