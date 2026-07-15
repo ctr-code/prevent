@@ -43,9 +43,7 @@ The site owner’s goal is to create an informative webpage that introduces the 
    - Related signs are grouped logically (e.g. susceptibility, behavior, process).
 
 4. **As a visitor, I want clear guidance on how to report concerns so I know what action to take if needed.**
-   - The page includes a reporting section with step-by-step guidance.
-   - It tells visitors what to do first, who to contact, and what information is helpful.
-   - The advice is calm, practical, and encourages acting early.
+   - The page has a section on reporting concerns with a link to the government's official site.
 
 5. **As a visitor, I want the page to feel calm, clear, and welcoming so I can engage with the content comfortably.**
    - The wording is reassuring and non-judgmental.
@@ -136,7 +134,6 @@ My takeaway is that Copilot is good at coming up with a bunch of ideas, but if y
 * Bunny CDN
 
 ## Testing
-Important part of your README!!!
 
 ### Google's Lighthouse Performance
 
@@ -147,17 +144,41 @@ Desktop | Mobile
 ### Browser Compatibility
 Check compatability with different browsers
 
+Firefox | Chromium
+:--: | :--:
+![browser screenshot for firefox](docs/firefox-1200.png) | ![browser screenshot for chromium](docs/chromium-1200.png)
+
 ### Responsiveness
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+
+320px | 576px | 1200px
+:--: | :--: | :--:
+![responsiveness screenshot for 320px](docs/responsive-320.png) | ![responsiveness screenshot for 576px](docs/responsive-576.png) | ![responsiveness screenshot for 1200px](docs/responsive-1200.png)
 
 ### Code Validation
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
+
+index.html | style.css
+-- | --
+![validation screenshot for html](docs/validate-html.png) | ![validation screenshot for css](docs/validate-css.png)
+
 ### Manual Testing user stories or/and features
-Test all your user stories, you an create table 
-User Story |  Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
-- and attach screenshot
+
+| # | User Story | Test | Result |
+| - | -------------------- | -------------------- | :------------------: |
+| 1 | As a visitor, I want a clear introduction to the Prevent strategy so I can quickly understand its purpose. | Check that there is an introductory section that introduces Prevent and states its purpose. | &check; ![user story 1 test result](docs/u1tr.png) |
+| 2 | As a visitor, I want information about radicalisation so I can understand what to look out for. | Check that there is dedicated, easy to understand section about radicalisation that is not alarmist. | &check; ![user story 2 test result](docs/u2tr.png) |
+| 3 | As a visitor, I want warning signs presented in a simple, readable format so I can scan them easily. | Check that the warning signs appear in a bulleted list using straightforward language. | &check; ![user story 3 test result](docs/u3tr.png) |
+| 4 | As a visitor, I want clear guidance on how to report concerns so I know what action to take if needed. | Check that there is a section with a clear link to the government's official site. | &check; ![user story 4 test result](docs/u4tr.png) |
+| 5 | As a visitor, I want the page to feel calm, clear, and welcoming so I can engage with the content comfortably. | Check that the page uses calm language, has plenty of whitespace and a calm visual appearance. | &check; ![user story 5 test result](docs/u5tr.png) |
+| 6 | As a visitor, I want to contact the site so I can leave feedback and ask questions. | Check that the site has an easy to find contact form inviting questions and comments. | &check; ![user story 6 test result](docs/u6tr.png) |
+| | | Check that the name field is validated. | &check; ![user story 6 name test result](docs/u6tr-name.png) |
+| | | Check that the email field is validated. | &check; ![user story 6 email test result](docs/u6tr-email.png) |
+| | | Check that the phone field is validated. | &check; ![user story 6 phone test result](docs/u6tr-phone.png) |
+| | | Check that the message field is validated. | &check; ![user story 6 message test result](docs/u6tr-message.png) |
+| | | Check that the confirmation modal is displayed. | &check; ![user story 6 confirm test result](docs/u6tr-confirm.png) |
+| 7 | As a site owner, I want the content to be organised into clear sections so the page is easy to navigate and understand. | Check that there are distinct, logical sections with clear headings | &check; ![user story 7 test result](docs/u7tr.png) |
+| 8 | As a site owner, I want the design to use simple Bootstrap styling so the webpage is informative, accessible, and visually clear. | Check that the site looks right on mobile. | &check; ![user story 8 mobile test result](docs/u8tr-mobile.png) |
+| | | Check that the site looks right on tablet. | &check; ![user story 8 tablet test result](docs/u8tr-tablet.png) |
+| | | Check that the site looks right on desktop. | &check; ![user story 8 tablet test result](docs/u8tr-desktop.png) |
 
 ## Bugs
 
