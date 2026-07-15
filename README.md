@@ -4,6 +4,8 @@ A student project to create a single page website introducing the British Govern
 
 [See the website here](https://ctr-code.github.io/prevent/).
 
+![The website on four different devices](docs/prevent.png)
+
 ## Design Brief
 
 ### External User’s Goal
@@ -144,8 +146,10 @@ Desktop | Mobile
 
 ### Browser Compatibility
 Check compatability with different browsers
+
 ### Responsiveness
 Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+
 ### Code Validation
 Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
 ### Manual Testing user stories or/and features
