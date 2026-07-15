@@ -3,26 +3,10 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Rubik", sans-serif;
-    --primary-colour: #3a2620;
-    /* dark brown */
-    --secondary-colour: #aa9581;
-    /* light brown */
-    --highlight-colour: #416a8e;
-    /* blue */
-    --highlight-colour-light: #7a9fc2;
-    /* light blue */
-    /* CSS HEX */
-    --shadow-grey: #3b2c35ff;
-    --midnight-violet: #2a1f2dff;
-    --spring-green: #31e981ff;
-    --pacific-blue: #75b8c8ff;
-    --dusty-rose: #cd8b76ff;
-    /* CSS HEX */
-    --rosy-copper: #d5573bff;
-    --smoky-rose: #885053ff;
-    --tea-green: #c6ecaeff;
-    --pacific-blue: #75b8c8ff;
-    --baltic-blue: #33658aff;
+
+    --shield-dark: #1717b2;
+    --shield-light: #c0c0ea;
+    --background-blue: #eeeeff;
 }
 
 body {
@@ -32,14 +16,14 @@ body {
 }
 
 #navbar {
-    background-color: #eeeeff;
+    background-color: var(--background-blue);
 }
 
 h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-colour);
+    color: var(--shield-dark);
 }
 
 h1 {
@@ -53,9 +37,13 @@ h2 {
 section {
     padding: 1rem;
     margin: 2rem 0;
-    background: #f2fff2;
+    background: var(--background-blue);
     /* When js is disabled, ensure that internal links aren't hidden behind navbar */
     scroll-margin-top: 80px;
+}
+
+a {
+    color: var(--shield-dark);
 }
 
 /* A button that is full-width until the screen reaches large (992px) */
