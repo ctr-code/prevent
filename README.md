@@ -132,16 +132,18 @@ paste here you user story | what is visible to the user and what action they sho
 
 ## Deployment
 
-#### Creating Repository on GitHub
-- First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
-- Then click on **use this template** and select **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
-- Once the repository was created, I clicked the green **gitpod** button to create a workspace in gitpod so that I could write the code for the site.
-#### Deloying on Github
-The site was deployed to Github Pages using the following method:
-- Go to the Github repository.
-- Navigate to the 'settings' tab.
-- Using the 'select branch' dropdown menu, choose 'main'.
-- Click 'save'.
+#### To Create a Fork of this Repository on GitHub
+
+* Sign into [Github](https://github.com/) and navigate to [this project](https://github.com/ctr-code/prevent).
+* Click on the Fork button.  Then click on the green Create Fork button.  This creates a new repository for you with a copy of the project.
+* Make a note of your fork's GitHub url.  Retrieve a local copy of the project with the command `git clone <url>`, substituting your fork's url.
+
+#### Deploying on Github
+
+* Open the repository you created in the previous section.
+* Click on the Settings button to open the project settings.
+* Click on the Pages section in the section list on the left.
+* Under Build and Deployment the Branch will be set to None.  Choose master and click Save.  Your repository will deploy.
 
 ## Credit and Thanks
 
