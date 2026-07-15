@@ -84,10 +84,34 @@ I chose a simple blue palette to reflect the water theme of the hero image.
 ![image of simple blue palette](docs/palette.png)
 
 ## Features:
-Explain your features on the website,(navigation, pages, links, forms.....)
+
 ### Navigation
+The site will have a fixed navigation bar with the logo and links to each of the sections.  On small screens the links will collapse into a hamburger menu.
+
+### Hero Image
+The project title and a slogan in front of a large image.
+
+### Overview Section
+A brief introduction to the Prevent programme.
+
+### Radicalisation Section
+A section with three cards:
+* Susceptibility - life situations that make people susceptible to radicalisation
+* Behaviours - behaviours indicative of radicalisation
+* Process - the process that leads to radicalisation
+
+### Report Section
+Describing how to contact the authorities.
+
+### Contact Us Section
+A form to send a message to the site operators.
+
+### Confirmation Modal
+The confirmation modal is displayed when a message is submitted.  It explains that the message will **not** be read by anyone.
+
 ### Footer
-### Other features
+The footer is not fixed.  It has a copyright message and social media icons.
+
 ## Copilot AI Assistance
 
 Copilot came up with:
@@ -100,13 +124,18 @@ Copilot came up with:
 My takeaway is that Copilot is good at coming up with a bunch of ideas, but if you have something in mind it is hard to get exactly what you want.
 
 ## Technologies Used
-List of technologies used for your project...
-HTML
-CSS
-Bootstrap
-Github
+
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* Font Awesome
+* GitHub hosting and GitHub Pages
+* Bunny CDN
+
 ## Testing
 Important part of your README!!!
+
 ### Google's Lighthouse Performance
 Screenshots of certain pages and scores (mobile and desktop)
 ### Browser Compatibility
@@ -148,7 +177,7 @@ paste here you user story | what is visible to the user and what action they sho
 ## Credit and Thanks
 
 * [Code Institute](https://codeinstitute.net/) and its tutors for teaching, support and the navbar collapser
-* [West Midlands Combined Authority](https://www.wmca.org.uk/) for funding
+* [West Midlands Combined Authority](https://www.wmca.org.uk/) for funding the course
 * [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) *et al* for the web
 * [GitHub](https://github.com/) for hosting the repository, the project plan and the site
 * [Bootstrap](https://getbootstrap.com/) for the CSS framework
