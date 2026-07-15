@@ -79,8 +79,9 @@ For headers I have used the Rubik font, with the main header in bold.  It is an 
 
 ### Colour Scheme
 
+I chose a simple blue palette to reflect the water theme of the hero image.
 
-Screenshoot of the colour scheme for your project
+![image of simple blue palette](docs/palette.png)
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms.....)
