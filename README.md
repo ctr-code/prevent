@@ -152,9 +152,9 @@ The site was deployed to Github Pages using the following method:
 * [Fort Awesome](https://github.com/FortAwesome/Font-Awesome/releases) for collating the Font Awesome assets
 * [Bunny CDN](https://fonts.bunny.net/) for font hosting
 * [The Rubik authors](https://github.com/googlefonts/rubik) for the Rubik font
-* [Microsoft](https://www.microsoft.com/) for [Visual Studio Code](https://code.visualstudio.com/).
+* [Microsoft](https://www.microsoft.com/) for [Visual Studio Code](https://code.visualstudio.com/)
 * [Copilot](https://copilot.microsoft.com/) for illustrations, brainstorming and copy
-* [Wikipedia](https://en.wikipedia.org/wiki/File:Vienna_Convention_road_sign_B2a.svg) and the [United Nations](https://www.un.org/) for the stop sign image
+* [Google](https://github.com/googlefonts/noto-emoji) for the Noto Emoji font, which provided the basis for the shield logo
 * [Action Counters Terrorism](https://actearly.uk/) for Prevent guidance
 * [His Majesty's Government](https://www.gov.uk/government/publications/prevent-duty-guidance/prevent-duty-guidance-for-england-and-wales-accessible#prevents-objectives) for the Prevent objectives
 * [Balsamiq](https://balsamiq.com/) for trying to upsell me export after I'd completed the wireframes
