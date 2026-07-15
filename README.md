@@ -75,7 +75,7 @@ Mobile/Tablet | Desktop | Confirmation Popup
 
 ### Typography
 
-For headers I have used the Rubik font, with the main header in bold.  It is an authoritative sans-serif font.
+For headers I have used the Rubik font, with the main header in bold.  It is an authoritative sans-serif font.  For everything else I used Inter, which is a very legible sans-serif.
 
 ### Colour Scheme
 
