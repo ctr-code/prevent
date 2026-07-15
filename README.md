@@ -85,7 +85,7 @@ I chose a simple blue palette to reflect the water theme of the hero image.
 
 ![image of simple blue palette](docs/palette.png)
 
-## Features:
+## Features
 
 ### Navigation
 The site will have a fixed navigation bar with the logo and links to each of the sections.  On small screens the links will collapse into a hamburger menu.
