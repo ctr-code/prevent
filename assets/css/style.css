@@ -66,6 +66,14 @@ a {
     position: relative;
 }
 
+.hero-text-container {
+    margin-top: 1rem;
+}
+
+.hero-text-container>p {
+    margin-top: 130px;
+}
+
 /* Contact section */
 .submit-button-container {
     display: flex;
@@ -78,23 +86,33 @@ footer {
     padding: 1.25rem 0;
 }
 
+/* Everything but the tiniest screens */
+@media screen and (min-width: 396px) {
+
+    /* vertically centre the hero text on all but the tiniest screens */
+    .hero-text-container {
+        margin-top: 200px;
+    }
+
+    .hero-text-container>p {
+        margin-top: auto;
+    }
+}
+
 /* Medium devices, tablets and up */
 @media screen and (min-width: 768px) {
+
     /* move the hero image away from the right margin */
     #hero {
         background-position:
             right 10rem top 0,
             left center;
     }
-
-    /* vertically centre the hero text on larger screens */
-    .hero-text-container {
-        margin-top: 200px;
-    }
 }
 
 /* Large devices, small laptops and up */
 @media screen and (min-width: 992px) {
+
     /* Don't use full width buttons on larger screens */
     .vary-button {
         width: auto;
