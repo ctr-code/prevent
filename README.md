@@ -156,9 +156,11 @@ paste here you user story | what is visible to the user and what action they sho
 * [Fort Awesome](https://github.com/FortAwesome/Font-Awesome/releases) for collating the Font Awesome assets
 * [Bunny CDN](https://fonts.bunny.net/) for font hosting
 * [The Rubik authors](https://github.com/googlefonts/rubik) for the Rubik font
+* [The Inter Project Authors](https://github.com/rsms/inter) for the Inter font
 * [Microsoft](https://www.microsoft.com/) for [Visual Studio Code](https://code.visualstudio.com/)
-* [Copilot](https://copilot.microsoft.com/) for illustrations, brainstorming and copy
+* [Copilot](https://copilot.microsoft.com/) for various tasks as described above
 * [Google](https://github.com/googlefonts/noto-emoji) for the Noto Emoji font, which provided the basis for the shield logo
 * [Action Counters Terrorism](https://actearly.uk/) for Prevent guidance
 * [His Majesty's Government](https://www.gov.uk/government/publications/prevent-duty-guidance/prevent-duty-guidance-for-england-and-wales-accessible#prevents-objectives) for the Prevent objectives
-* [Balsamiq](https://balsamiq.com/) for trying to upsell me export after I'd completed the wireframes
+* [Balsamiq](https://balsamiq.com/) for trying to upsell me export after I had completed the wireframes
+* [Coolors](https://coolors.co/) for the palette generator
