@@ -120,6 +120,7 @@ Copilot came up with:
 * The user stories and acceptance criteria.  I edited them down.
 * The idea to use a shield for the logo.  Copilot provided some examples from around the web.  I asked it to render the shield emoji from the Google Noto font as an svg but it did a poor job, so I asked it for advice on a better conversion tool.  The online tools weren't happy with emoji fonts so I searched for a pre-converted svg and hand-edited it to match the site's palette.
 * Code for the Radicalisation section.  The code worked but Copilot added a bunch of gratuitous styles, which I cleaned up.
+* The meta description and keyword content.
 
 My takeaway is that Copilot is good at coming up with a bunch of ideas, but if you have something in mind it is hard to get exactly what you want.
 
