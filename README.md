@@ -164,7 +164,7 @@ index.html | style.css
 
 The CSS warnings are harmless.  They explain that imports and variables are not validated.
 
-### Manual Testing user stories or/and features
+### Manual Testing
 
 | # | User Story | Test | Result |
 | - | -------------------- | -------------------- | :------------------: |
