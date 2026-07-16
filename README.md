@@ -187,6 +187,7 @@ The CSS warnings are harmless.  They explain that imports and variables are not 
 | External links open in a new tab | &check; |
 | Internal links navigate correctly | &check; |
 | The hamburger menu closes after navigating | &check; |
+| The WAVE accessibility checker reports no real errors. (It complains that an img with an alt tag lacks one, and it complains about adjacent links with the same url.  One of these links is a button for emphasis.) | &check; |
 
 
 ## Bugs
