@@ -116,13 +116,15 @@ The footer is not fixed.  It has a copyright message and social media icons.
 
 Copilot came up with:
 
-* The hero image of hands.  This required a lot of work (and several day's worth of free tokens!) to get something natural looking.
+* The hero image of hands.  This required a lot of work to get something natural looking.
 * The user stories and acceptance criteria.  I edited them down.
 * The idea to use a shield for the logo.  Copilot provided some examples from around the web.  I asked it to render the shield emoji from the Google Noto font as an svg but it did a poor job, so I asked it for advice on a better conversion tool.  The online tools weren't happy with emoji fonts so I searched for a pre-converted svg and hand-edited it to match the site's palette.
-* Code for the Radicalisation section.  The code worked but Copilot added a bunch of gratuitous styles, which I cleaned up.
+* Code for the Radicalisation section.  The code worked but Copilot added a bunch of gratuitous styles, which I cleaned up.  Copilot often seems to produce something that works without considering maintainability or how it fits into the broader project.
+* The javascript to display the confirmation modal.  More on this in the Bugs section below.
 * The meta description and keyword content.
+* Copilot provided a number of good suggestions for improving the user experience.  For example, various clarifications to the text, adding images to the Radicalisation section, etc.  Unfortunately, I asked too late to act on these.  My takeaway is to seek feedback earlier in future.
 
-My takeaway is that Copilot is good at coming up with a bunch of ideas, but if you have something in mind it is hard to get exactly what you want.
+Overall my takeaway is that Copilot is good at brainstorming, but if you have something in mind it is hard to get exactly what you want.  It handled some tasks well (e.g. the meta elements) and made the project quicker.
 
 ## Technologies Used
 
