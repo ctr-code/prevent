@@ -160,7 +160,7 @@ index.html | style.css
 -- | --
 ![validation screenshot for html](docs/validate-html.png) | ![validation screenshot for css](docs/validate-css.png)
 
-The CSS warnings are harmless.  They simply explain that imports and variables are not validated.
+The CSS warnings are harmless.  They explain that imports and variables are not validated.
 
 ### Manual Testing user stories or/and features
 
@@ -178,9 +178,16 @@ The CSS warnings are harmless.  They simply explain that imports and variables a
 | | | Check that the message field is validated. | &check; ![user story 6 message test result](docs/u6tr-message.png) |
 | | | Check that the confirmation modal is displayed. | &check; ![user story 6 confirm test result](docs/u6tr-confirm.png) |
 | 7 | As a site owner, I want the content to be organised into clear sections so the page is easy to navigate and understand. | Check that there are distinct, logical sections with clear headings | &check; ![user story 7 test result](docs/u7tr.png) |
-| 8 | As a site owner, I want the design to use simple Bootstrap styling so the webpage is informative, accessible, and visually clear. | Check that the site looks right on mobile. | &check; ![user story 8 mobile test result](docs/u8tr-mobile.png) |
-| | | Check that the site looks right on tablet. | &check; ![user story 8 tablet test result](docs/u8tr-tablet.png) |
-| | | Check that the site looks right on desktop. | &check; ![user story 8 tablet test result](docs/u8tr-desktop.png) |
+| 8 | As a site owner, I want the design to use simple Bootstrap styling so the webpage is informative, accessible, and visually clear. | Check that the site looks right on different devices. | &check; See the responsiveness tests above. |
+
+**Other Tests**
+
+| Test | Result |
+| -- | -- |
+| External links open in a new tab | &check; |
+| Internal links navigate correctly | &check; |
+| The hamburger menu closes after navigating | &check; |
+
 
 ## Bugs
 
