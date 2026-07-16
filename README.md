@@ -215,10 +215,11 @@ index.html | style.css
 * [Font Awesome](https://fontawesome.com/) for icons
 * [Fort Awesome](https://github.com/FortAwesome/Font-Awesome/releases) for collating the Font Awesome assets
 * [Bunny CDN](https://fonts.bunny.net/) for font hosting
-* [The Rubik authors](https://github.com/googlefonts/rubik) for the Rubik font
+* [The Rubik Authors](https://github.com/googlefonts/rubik) for the Rubik font
 * [The Inter Project Authors](https://github.com/rsms/inter) for the Inter font
 * [Microsoft](https://www.microsoft.com/) for [Visual Studio Code](https://code.visualstudio.com/)
 * [Copilot](https://copilot.microsoft.com/) for various tasks as described above
+* [W3C](https://www.w3.org/) for the [HTML and CSS validator](https://github.com/validator/validator/)
 * [Inkscape](https://inkscape.org/) for rendering the logo and favicons
 * [GIMP](https://www.gimp.org/) for cropping many screenshots
 * [Google](https://github.com/googlefonts/noto-emoji) for the Noto Emoji font, which provided the basis for the shield logo
@@ -226,3 +227,4 @@ index.html | style.css
 * [His Majesty's Government](https://www.gov.uk/government/publications/prevent-duty-guidance/prevent-duty-guidance-for-england-and-wales-accessible#prevents-objectives) for the Prevent objectives
 * [Balsamiq](https://balsamiq.com/) for trying to upsell me export after I had completed the wireframes
 * [Coolors](https://coolors.co/) for the palette generator
+* [Fireship](https://fireship.dev/amiresponsive) for the multi-device screenshot
