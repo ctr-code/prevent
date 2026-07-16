@@ -136,14 +136,13 @@ My takeaway is that Copilot is good at coming up with a bunch of ideas, but if y
 
 ## Testing
 
-### Google's Lighthouse Performance
+### Google Lighthouse Performance
 
 Desktop | Mobile
 -- | --
 ![Lighthouse for desktop](docs/lighthouse-desktop.png) | ![Lighthouse for mobile](docs/lighthouse-mobile.png)
 
 ### Browser Compatibility
-Check compatability with different browsers
 
 Firefox | Chromium
 :--: | :--:
@@ -160,6 +159,8 @@ Firefox | Chromium
 index.html | style.css
 -- | --
 ![validation screenshot for html](docs/validate-html.png) | ![validation screenshot for css](docs/validate-css.png)
+
+The CSS warnings are harmless.  They simply explain that imports and variables are not validated.
 
 ### Manual Testing user stories or/and features
 
